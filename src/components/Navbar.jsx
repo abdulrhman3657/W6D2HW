@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <>
+    <div style={{height:"100vh"}}> 
 
         <nav style={{backgroundColor: "rgba(2, 2, 2, 0.3)"}} className="navbar navbar-dark">
             <div className="container-fluid">
@@ -81,7 +81,7 @@ function Navbar() {
         </div>
 
     
-    </>
+    </div>
   )
 }
 
