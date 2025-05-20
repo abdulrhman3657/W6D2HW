@@ -55,8 +55,8 @@ function Navbar() {
                 <img src="https://images.ctfassets.net/vy53kjqs34an/3b6vBa9H4jGNZQvpCDV9sm/ca9a29433c61e153eaa123f7fb59ec15/website_RiyadhSeason_w.png?fm=webp&w=85&h=110" alt="" />
 
                 <div className='d-flex gap-3 align-items-center'>
-                    <a className='text-light' href="">العربية</a>
-                    <button className='btn btn-primary'>View Booklet</button>
+                    <a style={{textDecoration:"none"}} className='text-light' href="">العربية</a>
+                    <button className='btn btn-primary d-none d-lg-block'>View Booklet</button>
                 </div>
             </div>
         </nav>
