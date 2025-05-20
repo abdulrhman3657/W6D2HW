@@ -158,137 +158,39 @@ function Footer() {
 
       <hr />
 
-      <footer className="border-t border-white/20 pt-6">
-        <div className="container px-6 pb-6">
-          <div className="space-y-6 text-center" />
-          <div className="flex flex-col items-center space-y-8 py-6 xl:flex-row xl:justify-between xl:space-y-0">
-            <div className="flex grow flex-col items-center gap-4 space-y-4 lg:flex-row lg:gap-20 lg:space-y-0">
-              <figure className="shrink-0">
-                <img
-                  src="https://images.ctfassets.net/vy53kjqs34an/3b6vBa9H4jGNZQvpCDV9sm/ca9a29433c61e153eaa123f7fb59ec15/website_RiyadhSeason_w.png"
-                  width={85}
-                  height={110}
-                  alt="Global config"
-                />
-              </figure>
-              <ul className="flex shrink-0 items-center gap-4">
-                <li className="rounded-md">
-                  <a
-                    className="hover:bg-body-dark/5 active:bg-body-dark/10 text-body-dark disabled:bg-input-disabled/10 relative inline-flex items-center justify-center gap-1 px-4 py-2 text-center transition disabled:text-text-disabled disabled:cursor-not-allowed rounded-S social_media_follow overflow-hidden rounded-md !p-1"
-                    href="https://www.facebook.com/webookfun/"
-                    rel="noreferrer noopener"
-                    aria-label
-                    data-location="footer"
-                    target="_blank"
-                  >
-                    {" "}
-                    <img
-                      src="https://images.ctfassets.net/vy53kjqs34an/12dxmhGOwDp0O60rGkGaoU/2316038e3becb17702597cf2782052f1/Button-1.png?fit=pad&w=55&h=55"
-                      width={55}
-                      height={55}
-                      alt="Facbook Icon Social Media"
-                    />
-                  </a>
-                </li>
-                <li className="rounded-md">
-                  <a
-                    className="hover:bg-body-dark/5 active:bg-body-dark/10 text-body-dark disabled:bg-input-disabled/10 relative inline-flex items-center justify-center gap-1 px-4 py-2 text-center transition disabled:text-text-disabled disabled:cursor-not-allowed rounded-S social_media_follow overflow-hidden rounded-md !p-1"
-                    href="https://x.com/RiyadhSeason"
-                    rel="noreferrer noopener"
-                    aria-label
-                    data-location="footer"
-                    target="_blank"
-                  >
-                    {" "}
-                    <img
-                      src="https://images.ctfassets.net/vy53kjqs34an/7FPODYVihpzuYzN2hoDlD2/1e889247bc73807bd4844d210f91e2db/Button.png?fit=pad&w=55&h=55"
-                      width={55}
-                      height={55}
-                      alt="X Ixon"
-                    />
-                  </a>
-                </li>
-                <li className="rounded-md">
-                  <a
-                    className="hover:bg-body-dark/5 active:bg-body-dark/10 text-body-dark disabled:bg-input-disabled/10 relative inline-flex items-center justify-center gap-1 px-4 py-2 text-center transition disabled:text-text-disabled disabled:cursor-not-allowed rounded-S social_media_follow overflow-hidden rounded-md !p-1"
-                    href="https://www.instagram.com/riyadhseason"
-                    rel="noreferrer noopener"
-                    aria-label
-                    data-location="footer"
-                    target="_blank"
-                  >
-                    {" "}
-                    <img
-                      src="https://images.ctfassets.net/vy53kjqs34an/6vlq9w8miTqnUyvaPVTGlt/c7098a6a02a829656ad0150412caa439/Button-2.png?fit=pad&w=55&h=55"
-                      width={55}
-                      height={55}
-                      alt="Instagram Icon"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="flex w-full flex-col items-center justify-center gap-2 lg:flex-row lg:gap-6 xl:justify-end">
-              <p className="text-center text-sm" />
-              <div className="flex items-center" />
-            </div>
-          </div>
-          <div className="flex flex-col justify-between border-t border-gray-500/50 pt-5 lg:flex-row">
-            <nav className="flex flex-wrap justify-center py-2 pb-8 text-xs">
-              <ul className="flex flex-row flex-wrap items-center justify-center gap-2 space-y-0 md:gap-12">
-                <li>
-                  <button
-                    className="hover:bg-body-dark/5 active:bg-body-dark/10 text-body-dark disabled:bg-input-disabled/10 relative inline-flex items-center justify-center overflow-hidden px-4 text-center transition disabled:text-text-disabled disabled:cursor-not-allowed rounded-S gap-1 py-1 uppercase underline-offset-2 hover:underline"
-                    data-testid="lang-switcher"
-                    data-location="header"
-                    data-target-language="ar"
-                    role="menuitem"
-                  >
-                    {" "}
-                    <span className="ltr:font-vazirmatn rtl:font-gellix hidden sm:block">
-                      العربية
-                    </span>
-                    <span className="ltr:font-vazirmatn rtl:font-gellix sm:hidden">
-                      العربية
-                    </span>
-                  </button>
-                </li>
-                <li>
-                  <a
-                    className="text-text disabled:bg-input-disabled/10 relative inline-flex items-center justify-center gap-1 overflow-hidden text-center transition disabled:text-text-disabled disabled:cursor-not-allowed rounded-S p-1 underline-offset-2 hover:underline"
-                    href="/en/privacy"
-                    rel="noreferrer noopener"
-                    aria-label="PRIVACY POLICY"
-                    data-location="footer"
-                    data-category="PRIVACY POLICY"
-                  >
-                    {" "}
-                    PRIVACY POLICY
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="text-text disabled:bg-input-disabled/10 relative inline-flex items-center justify-center gap-1 overflow-hidden text-center transition disabled:text-text-disabled disabled:cursor-not-allowed rounded-S p-1 underline-offset-2 hover:underline"
-                    href="/en/terms"
-                    rel="noreferrer noopener"
-                    aria-label="TERMS & CONDITIONS"
-                    data-location="footer"
-                    data-category="TERMS & CONDITIONS"
-                  >
-                    {" "}
-                    TERMS &amp; CONDITIONS
-                  </a>
-                </li>
-              </ul>
-            </nav>
-            <div className="flex items-center justify-center text-[13px] text-zinc-100">
-              <span className="md:text-center">
-                Copyright © 2024 RIYADH SEASON. All rights reserved.
-              </span>
-            </div>
-          </div>
+      <section className="container my-3">
+        <div className="d-flex">
+          <img
+            src="https://images.ctfassets.net/vy53kjqs34an/3b6vBa9H4jGNZQvpCDV9sm/ca9a29433c61e153eaa123f7fb59ec15/website_RiyadhSeason_w.png"
+            width={85}
+            height={110}
+            alt="Global config"
+          />
+          <img
+            src="https://images.ctfassets.net/vy53kjqs34an/12dxmhGOwDp0O60rGkGaoU/2316038e3becb17702597cf2782052f1/Button-1.png?fit=pad&w=55&h=55"
+            width={55}
+            height={55}
+            alt="Facbook Icon Social Media"
+          />
+          <img
+            src="https://images.ctfassets.net/vy53kjqs34an/7FPODYVihpzuYzN2hoDlD2/1e889247bc73807bd4844d210f91e2db/Button.png?fit=pad&w=55&h=55"
+            width={55}
+            height={55}
+            alt="X Ixon"
+          />
+          <img
+            src="https://images.ctfassets.net/vy53kjqs34an/6vlq9w8miTqnUyvaPVTGlt/c7098a6a02a829656ad0150412caa439/Button-2.png?fit=pad&w=55&h=55"
+            width={55}
+            height={55}
+            alt="Instagram Icon"
+          />
         </div>
-      </footer>
+
+        <hr />
+
+    <div className="flex flex-col justify-between border-t border-gray-500/50 pt-5 lg:flex-row"><nav className="flex flex-wrap justify-center py-2 pb-8 text-xs"><ul className="flex flex-row flex-wrap items-center justify-center gap-2 space-y-0 md:gap-12"><li><button className="hover:bg-body-dark/5 active:bg-body-dark/10 text-body-dark disabled:bg-input-disabled/10 relative inline-flex items-center justify-center overflow-hidden px-4 text-center transition disabled:text-text-disabled disabled:cursor-not-allowed rounded-S gap-1 py-1 uppercase underline-offset-2 hover:underline" data-testid="lang-switcher" data-location="header" data-target-language="ar" role="menuitem"> <span className="ltr:font-vazirmatn rtl:font-gellix hidden sm:block">العربية</span><span className="ltr:font-vazirmatn rtl:font-gellix sm:hidden">العربية</span></button></li><li><a className="text-text disabled:bg-input-disabled/10 relative inline-flex items-center justify-center gap-1 overflow-hidden text-center transition disabled:text-text-disabled disabled:cursor-not-allowed rounded-S p-1 underline-offset-2 hover:underline" href="/en/privacy" rel="noreferrer noopener" aria-label="PRIVACY POLICY" data-location="footer" data-category="PRIVACY POLICY"> PRIVACY POLICY</a></li><li><a className="text-text disabled:bg-input-disabled/10 relative inline-flex items-center justify-center gap-1 overflow-hidden text-center transition disabled:text-text-disabled disabled:cursor-not-allowed rounded-S p-1 underline-offset-2 hover:underline" href="/en/terms" rel="noreferrer noopener" aria-label="TERMS & CONDITIONS" data-location="footer" data-category="TERMS & CONDITIONS"> TERMS &amp; CONDITIONS</a></li></ul></nav><div className="flex items-center justify-center text-[13px] text-zinc-100"><span className="md:text-center">Copyright © 2024 RIYADH SEASON. All rights reserved.</span></div></div>
+
+      </section>
     </div>
   );
 }
